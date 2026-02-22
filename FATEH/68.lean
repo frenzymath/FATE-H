@@ -1,7 +1,7 @@
 import Mathlib
 
 open Ideal
-/-
+/--
 Let $A$ be a Noetherian ring and let $x \in A$ be an element which is
 neither a unit nor a zero-divisor. Prove that the ideals $xA$ and $x^nA$
 for $n = 1, 2, \dots$ have the same prime divisors:

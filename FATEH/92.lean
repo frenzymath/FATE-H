@@ -4,7 +4,8 @@ import Mathlib
 Let \( R \) be a Dedekind domain. Show the following:
 
 If \( P_1, \dots, P_n \in \operatorname{Spec}(R) \) are pairwise distinct, non-zero prime ideals
-and \( e_1, \dots, e_n \) are non-negative integers, there exists \( a \in R \setminus \{0\} \) such that
+and \( e_1, \dots, e_n \) are non-negative integers, there exists \( a \in R \setminus \{0\} \)
+such that
 \[
 (a) = P_1^{e_1} \cdots P_n^{e_n} \cdot J,
 \]

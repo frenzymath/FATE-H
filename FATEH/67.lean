@@ -2,7 +2,7 @@ import Mathlib
 
 open Polynomial
 
-/-
+/--
 Prove that the prime ideals of $\mathbb{F}_7[\alpha] \otimes_{\mathbb{F}_7} \mathbb{F}_7[\alpha]$ are principal, where $\alpha^3 = 2$.
 -/
 theorem isPrincipal_of_ideal_tensor_zMod_seven
