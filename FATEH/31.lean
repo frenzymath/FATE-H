@@ -1,5 +1,7 @@
 import Mathlib
 
+open Module
+
 /--
 Prove that the primitive $n^{\textrm{th}}$ roots of unity form a basis over $\mathbb{Q}$ for
 the cyclotomic field of $n^{\textrm{th}}$ roots of unity if and only if $n$ is squarefree.
