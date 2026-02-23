@@ -9,5 +9,5 @@ of $K/F$. Show that the minimal polynomial of $\theta$ over $L$: $g(x) = x^r+\al
 -/
 theorem adjoin_minpoly_coeffs_toSet_eq {F K : Type} [Field F] [Field K]
     [Algebra F K] {θ : K} (L : IntermediateField F K) (h : F⟮θ⟯ = ⊤) :
-    IntermediateField.adjoin F (minpoly L θ).coeffs.toSet = L := by
+    IntermediateField.adjoin F ((↑)'' (minpoly L θ).coeffs.toSet : Set K) = L := by
   sorry
