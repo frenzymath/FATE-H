@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.0 - 2026-05-26
+
+### Added
+- Lean [v4.29.0] support.
+
+### Fixed
+- **H-67**: `set_option maxHeartbeats 400000` (needs 389576; default 200000). Caused by the v4.29 `isDefEq` transparency change, [PR #12179]. Statement unchanged.
+
 ## 1.2.0 - 2026-02-23
 
 ### Added
@@ -33,8 +41,11 @@
 - A sunburst chart for domain statistics.
 - CI to automatically run Lean builds on push.
 
+[v4.29.0]: https://github.com/frenzymath/FATE-H/tree/v4.29.0
 [v4.28.0]: https://github.com/frenzymath/FATE-H/tree/v4.28.0
 [v4.16.0]: https://github.com/frenzymath/FATE-H/tree/v4.16.0
+[v4.29.0 release notes]: https://lean-lang.org/doc/reference/latest/releases/v4.29.0/
+[PR #12179]: https://github.com/leanprover/lean4/pull/12179
 [1.1.0]: https://github.com/frenzymath/FATE-H/tree/v4.16.0
 [1.0.1]: https://github.com/frenzymath/FATE-H/commit/a42a6667ac9e0e2361461ecb69cb4b97f75f3863
 [1.0.0]: https://github.com/frenzymath/FATE-H/tree/initial-release

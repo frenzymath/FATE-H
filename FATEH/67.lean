@@ -2,6 +2,9 @@ import Mathlib
 
 open Polynomial
 
+-- v4.29 `isDefEq` change: needs 389_576 heartbeats, default is 200_000.
+set_option maxHeartbeats 400000
+
 /--
 Prove that the prime ideals of $\mathbb{F}_7[\alpha] \otimes_{\mathbb{F}_7} \mathbb{F}_7[\alpha]$ are principal, where $\alpha^3 = 2$.
 -/
